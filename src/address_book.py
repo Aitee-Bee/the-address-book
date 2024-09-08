@@ -3,4 +3,6 @@ class ContactInfo:
         self.firstname = firstname
         self.lastname = lastname
         self.phonenumbers = [phonenumber]
-        
+
+    def add_phonenumber(self, phonenumber):
+        self.phonenumbers.append(phonenumber)
